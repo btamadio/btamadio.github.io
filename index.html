@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <!-- <meta http-equiv="refresh" content="0;url=projects/index.html"/> -->
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,26 +11,67 @@
   <body>
     <div class="container">
       <div class="block">
-        <nav class="nav-bar is-fixed-top">
-
+        <nav class="navbar is-dark is-spaced" role="navigation" aria-label="main navigation">
           <div class="navbar-brand">
             <a class="navbar-item">
-              <h1 class="title is-1">Brian Amadio</h1>
+              <h1 class="title is-2 has-text-white">Brian Amadio</h1>
             </a>
           </div>
 
-          <div class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item" href="index.html">Home</a>
-              <a class="navbar-item" href="about.html">About Me</a>
-              <a class="navbar-item" href="projects/index.html">Projects</a>
-              <a class="navbar-item" href="blog/index.html">Blog</a>
-              <a class="navbar-item" href="photography/index.html">Photography</a>
-              <a class="navbar-item" href="contact.html">Contact</a>
+          <div class="navbar-menu is-active">
+            <div class="navbar-end">
+              <a class="navbar-item" href="https://github.com/btamadio" target="_blank">
+                <span class="icon is-large">
+                  <i class="fa fa-2x fa-github"></i>
+                </span>
+              </a>
             </div>
           </div>
         </nav>
       </div>
+
+      <div class="block">
+        <div class="card">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="images/multithreaded-logo.jpg" alt="Multithreaded">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p>
+                  <a class="title is-4" 
+                     href="https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/" 
+                     target="_blank">Multi-Armed Bandits and the Stitch Fix Experimentation Platform</a>
+                </p>
+                <p class="subtitle is-6">My first blog post for Stitch Fix</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+       <div class="block">
+        <div class="card">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="images/cljs.png" alt="ClojureScript">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p>
+                  <a class="title is-4" href="projects/montehall/index.html" target="_blank">Monte Hall</a>
+                </p>
+                <p class="subtitle is-6">Interactive Monty Hall Simulator written in ClojureScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </body>
 </html>
